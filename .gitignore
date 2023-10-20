@@ -1,0 +1,4 @@
+id_rsa
+ansible_priv
+ansible_priv.pub
+file_to_copy.txt

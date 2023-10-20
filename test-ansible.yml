@@ -1,0 +1,11 @@
+---
+- name: Copy file with owner and permissions
+  hosts: all
+  become: yes
+
+  tasks:
+      - name: Copy file with owner and permissions
+        ansible.builtin.copy:
+            src: file_to_copy.txt
+            dest: /home/
+            owner: ansible_user
